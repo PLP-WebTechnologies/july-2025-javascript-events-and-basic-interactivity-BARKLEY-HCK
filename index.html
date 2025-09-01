@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Interactive Web Page</h1>
+
+  <!-- Theme Toggle Button -->
+  <button id="toggleThemeBtn">Toggle Light/Dark Mode</button>
+
+  <!-- Form Section -->
+  <section class="form-section">
+    <h2>Register</h2>
+    <form id="registerForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" />
+      <button type="button" id="togglePasswordBtn">Show/Hide</button>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Error message placeholder -->
+    <p id="formError" class="error"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
